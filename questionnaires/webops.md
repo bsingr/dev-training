@@ -10,6 +10,7 @@
 ### Layer 3 - Subnets
 
 - Describe what IPv4 address is and what it is used for
+- How is IPv4 different from IPv6?
 - Describe what a subnet is and what is used for
 - Explain the CIDR blocks and give example for min/max IP and the number of IPs 
 - What subnets are officially private?
@@ -20,11 +21,23 @@
 - What is ports and what are they used for
 - How many ports
 - What is a TCP router?
+- How is TCP different from UDP?
+- What is congestion control?
+- What is TCP slow start?
 
 ### Web in OSI
 
 - What OSI layers is needed for DNS/HTTPs to work
+- What is a socket?
+
+### DNS
+
 - What is DNS and what are A and CNAME records?
+- What is DNSSEC?
+- What is meant by propagation?
+- How do you choose a sensible TTL, and what caveats are there to be aware of?
+- How are domains registered?
+- Which OSI transport layer is used for DNS requests?
 
 ### Firewalls
 
@@ -59,6 +72,10 @@
 1. Can you sketch a raw http request and response?
 2. What is HTTPS, SSL and TLS?
 3. How sketch the steps how do DNS, TLS and HTTP work together when a user browses https://example.com?
+4. Can you explain what the resource model is in REST?
+5. What is QUIC?
+6. What fragments/parts does the following URL consist of? https://www.example.org:443/search?query=Foo#edit
+7. If you intercept an HTTPS request on the network, which information can you derive?
 
 ### Reverse Proxies and Routing
 
@@ -67,6 +84,8 @@
 3. What is Path and Host based routing?
 4. What is SSL/TLS Offloading?
 5. What’s the difference between the Http-reverse-proxy and a TCP network loadbalancer and a TCP router?
+6. What happens to the original IP when forwarding a request from a proxy?
+7. What are pros and cons for buffering in the proxy?
 
 ### Load Balancing
 
@@ -89,9 +108,22 @@
 4. What does any status in the range of 400-499 mean?
 5. What does any status in the range of 500-599 mean?
 
+### HTTP Methods
+
+1. Which HTTP methods (verbs) do you know?
+2. How are HTTP methods related to idempotence?
+3. How is POST different from PUT?
+
+### HTTP Headers
+
+- What are HTTP headers? Can you give examples?
+- Which headers might be relevant for a proxy?
+- 
+
 ### Tooling
 
 - `curl`: What does it help with?
+- `wget`: What does it help with?
 
 ### How to use tooling
 
