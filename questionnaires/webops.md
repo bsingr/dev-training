@@ -37,7 +37,7 @@
 
 1. Can you sketch a raw http request and response?
 2. What is HTTPS, SSL and TLS?
-3. How sketch the steps how do DNS, TLS and HTTP work together when a user browses https://www.google.de?
+3. How sketch the steps how do DNS, TLS and HTTP work together when a user browses https://www.example.com?
 
 ### Reverse Proxies and Routing
 
